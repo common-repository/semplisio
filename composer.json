@@ -1,0 +1,19 @@
+{
+    "name": "solvendo/semplisio",
+    "description": "Integrazione wordpress con semplisio",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Solvendo",
+            "email": "info@solvendo.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {"Semplisio\\": "./classes"}
+    },
+    "require": {
+        
+    }
+}

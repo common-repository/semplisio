@@ -1,0 +1,352 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css");
+
+#semplisio .check {
+  display: none;
+  margin-bottom: 40px;
+}
+
+#semplisio .float-right{
+  float: right;
+}
+
+#semplisio .check > div {
+  display: flex;
+  height: 50px;
+  margin-top: 20px;
+}
+
+#semplisio .wait {
+  width: 50px;
+}
+
+#semplisio .esitook {
+  color: #005500;
+  display: none;
+}
+
+#semplisio .esitoko {
+  color: #550000;
+  display: none;
+}
+
+#semplisio .hidden {
+  display: none;
+}
+
+#semplisio .frame {
+  position: relative;
+  padding: 0px 0px;
+}
+
+#semplisio,
+#semplisio p,
+#semplisio a,
+#semplisio button {
+  font-size: 16px;
+  line-height:24px;
+  text-decoration: none;
+}
+
+#semplisio a {
+  color:#008DAD;
+}
+
+#semplisio .button-primary {
+	background:#008DAD;color:white;padding:6px 36px;border:0px;}
+
+#semplisio .button-primary:hover {
+	background:#00687f;color:white;padding:6px 36px;border:0px;}
+ 
+#semplisio .button-bordered {
+  border: solid 2px #222;
+}
+
+#semplisio .text-center {
+  text-align: center;
+}
+
+#semplisio .text-right {
+  text-align: right;
+}
+
+#semplisio .right {
+  position: absolute;
+  right: 10px;
+}
+
+#semplisio .bottom {
+  bottom: 10px;
+}
+
+/*
+#semplisio input[type="text"] {
+  width: 80%;
+}
+*/
+
+#semplisio .flex-relative {
+  display: flex;
+  position: relative;
+}
+#semplisio .float-right {
+  float: right
+}
+#semplisio .align-center {
+ text-align: center;
+}
+
+#semplisio.home {
+  padding-right: 40%;
+}
+
+#semplisio.home .frame b {
+ color:#008DAD;
+}
+
+
+#semplisio.home .frame .list {
+  list-style-type: none;
+}
+#semplisio.home .frame .list li {margin-bottom:18px;}
+#semplisio.home .frame .list li::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f105";
+  color:#008DAD;
+  margin-left:-16px;
+  margin-right:10px;
+}
+
+#semplisio.home .frame .sublist li::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0da";
+  color:#B6CF57;
+  margin-left:16px;
+  margin-right:10px;
+}
+
+/*
+#semplisio.home .footer{
+	float:right;text-align:center;
+}
+*/
+ 
+
+#semplisio.home img {
+  max-width: 200px;
+  margin:24px 24px 12px;
+}
+
+#semplisio ul.menu {
+  display: flex;
+}
+
+#semplisio ul.menu > li {
+  border-style: solid;
+  border-width: 1px 1px 0 1px;
+  border-color:#bcbcbc;
+  background: rgb(240,240,241);
+  background: linear-gradient(0deg, rgba(240,240,241,1) 0%, rgba(255,255,255,1) 100%);
+  padding: 16px 24px;
+  color: #222;
+  border-radius: 4px 4px 0 0;
+  text-transform:uppercase;
+  margin:8px 4px 0 0;
+}
+
+
+
+
+#semplisio ul.menu > li::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+
+  color:#008DAD;
+  margin-right:6px;
+}
+
+#semplisio ul.menu > li:nth-child(1)::before {
+	  content: "\f205";
+}
+
+#semplisio ul.menu > li:nth-child(2)::before {
+	  content: "\f0ae";
+}
+#semplisio ul.menu > li:nth-child(3)::before {
+	  content: "\f085";
+}
+#semplisio ul.menu > li:nth-child(4)::before {
+	  content: "\f2f1";
+}
+
+#semplisio ul.menu > li:nth-child(5)::before {
+	  content: "\f274";
+}
+
+
+
+
+
+#semplisio ul.menu > li:hover {
+  padding: 20px 24px 20px;
+  margin:0px 4px 0 0;
+  transition: 0.3s ease;
+  background: rgb(255,255,255);
+}
+
+ 
+#semplisio .menu a {
+  color: #222;
+  font-size:15px;
+}  
+ 
+#semplisio .menu a:focus {
+  box-shadow:none;
+ } 
+
+ 
+
+#semplisio.attivazione {
+  padding-right: 40%;
+}
+
+#semplisio.attivazione .frame {
+  padding-top: 45px;
+  position: relative;
+  font-size: 18px;
+  height: 230px;
+  margin-top: 20px;
+}
+
+#semplisio.attivazione .frame input {
+  padding: 10px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+#semplisio.attivazione .frame .button.salva {
+ 
+}
+
+#semplisio.attivazione .frame .button.procedi {
+
+}
+#semplisio.attivazione .frame .float-right{
+  float:right;
+}
+
+#semplisio.diagnostica {
+  padding-right: 40%;
+}
+
+#semplisio.diagnostica h3 {
+  width: 20%;
+}
+#semplisio.diagnostica h5 {
+  width: 60%;
+}
+
+#semplisio.impostazioni {
+  padding-right: 40%;
+}
+
+#semplisio.impostazioni .frame {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+#semplisio.impostazioni .errormsg {
+  display: none;
+}
+
+#semplisio.impostazioni input,
+#semplisio.impostazioni select {
+  margin-top: 8px;
+  width: 95%;
+}
+
+#semplisio.workflows {
+  padding-right: 40%;
+}
+
+#semplisio.workflows .frame {
+  padding-bottom: 100px;
+}
+
+#semplisio.workflows button.button {
+  margin: 20px 20px 0 0;
+}
+/* 
+#semplisio.workflows .prodotti-ora {
+  position: absolute;
+  right: 20%;
+  top: 200px;
+} */
+
+#semplisio .toggle {
+  cursor: pointer;
+  display: inline-block;
+}
+
+#semplisio .toggle-switch {
+  display: inline-block;
+  background: #ccc;
+  border-radius: 16px;
+  width: 58px;
+  height: 32px;
+  position: relative;
+  vertical-align: middle;
+  transition: background 0.25s;
+}
+
+#semplisio .toggle-switch:before,
+.toggle-switch:after {
+  content: "";
+}
+
+#semplisio .toggle-switch:before {
+  display: block;
+  background: linear-gradient(to bottom, #fff 0%, #eee 100%);
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  transition: left 0.25s;
+}
+#semplisio .toggle:hover .toggle-switch:before {
+  background: linear-gradient(to bottom, #fff 0%, #fff 100%);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
+}
+#semplisio .toggle-checkbox:checked + .toggle-switch {
+  background: #2271b1;
+}
+#semplisio .toggle-checkbox:checked + .toggle-switch:before {
+  left: 30px;
+}
+
+#semplisio .toggle-checkbox {
+  position: absolute;
+  visibility: hidden;
+}
+
+#semplisio .toggle-label {
+  margin-left: 5px;
+  position: relative;
+  top: 2px;
+}
+
+/*
+#semplisio.workflows p.info {
+    width: 70%;
+    float: left;    
+}
+#semplisio.workflows p.legend {
+    width: 30%;
+    float: right;
+}
+*/
